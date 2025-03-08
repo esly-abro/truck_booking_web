@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Journey - Truck Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Journey</h1>
+        <form id="addJourneyForm">
+            <div class="form-group">
+                <label for="truckType">Truck Type:</label>
+                <input type="text" id="truckType" name="truckType" required>
+            </div>
+            <div class="form-group">
+                <label for="departureDate">Departure Date:</label>
+                <input type="date" id="departureDate" name="departureDate" required>
+            </div>
+            <div class="form-group">
+                <label for="truckImage">Upload Truck Image:</label>
+                <input type="file" id="truckImage" name="truckImage" accept="image/*" required>
+            </div>
+            <button type="submit" class="btn btn-add">Add Journey</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
